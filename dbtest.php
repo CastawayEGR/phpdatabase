@@ -14,9 +14,11 @@ if ($connection->connect_errno) {
     printf("Connect failed: %s\n", $mysqli->connect_error);
     exit();
 } else {
-    printf("Connected to the database %s\n", $dbhost);
-    printf("Database name %s\n", $dbname);
-    printf("Database user %s\n", $dbuser);
+    printf("Connected to the database %s \n", $dbhost);
+    printf("---\n");
+    printf("Database name: %s\n", $dbname);
+    printf("---\n");
+    printf("Database user: %s\n", $dbuser);
 }
 $connection->close();
 ?>
