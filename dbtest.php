@@ -1,6 +1,10 @@
 <?php
-$dbhost = getenv("MYSQL_SERVICE_HOST");
-$dbport = getenv("MYSQL_SERVICE_PORT");
+// MySQL connection settings
+//$dbhost = getenv("MYSQL_SERVICE_HOST");
+//$dbport = getenv("MYSQL_SERVICE_PORT");
+//MariaDB connection settings
+$dbhost = getenv("MARIADB_SERVICE_HOST");
+$dbport = getenv("MARIADB_SERVICE_PORT");
 $dbuser = getenv("databaseuser");
 $dbpwd = getenv("databasepassword");
 $dbname = getenv("databasename");
