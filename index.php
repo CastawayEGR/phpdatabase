@@ -14,6 +14,7 @@
     <br>
     <a href="create-mysql-table.php">Create MariaDB table</a><br>
     <a href="add-record-form.php">Add records to DB</a><br>
+    <a href="add-record-form.php">Get records from DB</a><br>
     <a href="index.php">Index Page</a>
 </body>
 </html>

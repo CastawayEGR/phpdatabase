@@ -19,6 +19,7 @@
         <input type="text" name="email" id="emailAddress">
     </p>
     <input type="submit" value="Add Records">
+		<a href="index.php">Index Page</a>
 </form>
 </body>
 </html>

@@ -15,6 +15,8 @@ if ($connection->connect_errno) {
     exit();
 } else {
     printf("Connected to the database %s\n", $dbhost);
+    printf("Database name %s\n", $dbname);
+    printf("Database user %s\n", $dbuser);
 }
 $connection->close();
 ?>
