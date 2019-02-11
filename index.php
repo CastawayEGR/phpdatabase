@@ -12,7 +12,7 @@
     </p>
     <a href="dbtest.php">Test DB</a><br>
     <br>
-    <a href="create-mysql-table.php">Create MariaDB table</a><br>
+    <a href="create-mysql-table.php">Create DB table</a><br>
     <a href="add-record-form.php">Add records to DB</a><br>
     <a href="select-query.php">Get records from DB</a><br>
     <a href="index.php">Index Page</a>
