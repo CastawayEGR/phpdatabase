@@ -8,7 +8,7 @@
     <p><strong>Welcone to OpenShift</strong></p>
     <p>To test the database, hit the Test DB<br>
     This assumes that you have the correct env variables set<br>
-    The environment variables required are databaseuser, databasepassword, and databasenmae.<br>
+    The environment variables required are <b>dbuser</b>, <b>dbpassword</b> and <b>dbname</b>.<br>
     </p>
     <a href="dbtest.php">Test DB</a><br>
     <br>
