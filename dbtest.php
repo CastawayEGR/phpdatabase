@@ -5,9 +5,9 @@
 //MariaDB connection settings
 $dbhost = getenv("MARIADB_SERVICE_HOST");
 $dbport = getenv("MARIADB_SERVICE_PORT");
-$dbuser = getenv("databaseuser");
-$dbpwd = getenv("databasepassword");
-$dbname = getenv("databasename");
+$dbuser = getenv("dbuser");
+$dbpwd = getenv("dbpassword");
+$dbname = getenv("dbname");
 
 $connection = new mysqli($dbhost, $dbuser, $dbpwd, $dbname);
 if ($connection->connect_errno) {
